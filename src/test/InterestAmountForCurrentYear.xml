@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EMICalculatorTesting">
+	<test thread-count="5" name="CarLoan">
+		<groups>
+			<run>
+				<include name="Smoke Test" />
+				<include name="Regression Test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.InterestAmount.testSuites.CarLoanEMI_TestCase" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="HomeLoan">
+		<groups>
+			<run>
+				<include name="Smoke Test" />
+				<include name="Regression Test" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.InterestAmount.testSuites.HomeLoanEMI_TestCase" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="EMI">
+		<groups>
+			<run>
+				<include name="Smoke Test" />
+				<include name="Regression Test" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.InterestAmount.testSuites.LoanEMICalculatorUICheck_TestCase" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="homeTest">
+		<groups>
+			<run>
+				<include name="Smoke Test" />
+				<include name="Regression Test" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.InterestAmount.testSuites.LoanAmountCalculatorUICheck_TestCase" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Loan Tenure">
+		<groups>
+			<run>
+				<include name="Smoke Test" />
+				<include name="Regression Test" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.InterestAmount.testSuites.LoanTenureCalculatorUICheck_TestCase" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
